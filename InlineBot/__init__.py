@@ -4,14 +4,14 @@
 
 import os
 
-API_HASH = os.environ.get("API_HASH", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-DB_URI = os.environ.get("DATABASE_URL", "")
-BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+API_HASH = os.environ.get("API_HASH", "6d48cb362a97a43cfc944fd5c0f917f9")
+APP_ID = int(os.environ.get("APP_ID", "19863702"))
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kxzn980:kishan@cluster0.tu0fpes.mongodb.net/")
+BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6254031841:AAHt3pqHkueJMaikB9lb4wvP_NS7EqPStFQ")
 TG_BOT_WORKERS = int(os.environ.get("BOT_WORKERS", '4'))
 DB_NAME = os.environ.get("DATABASE_NAME", "InlineFilterBot")
 thumb = os.environ.get('THUMBNAIL_URL', 'https://telegra.ph/file/516ca261de9ebe7f4ffe1.jpg')
-OWNER_ID = int(os.environ.get('OWNER_ID'))
+OWNER_ID = int(os.environ.get('OWNER_ID', '6988336146'))
 CUSTOM_START_MESSAGE = os.environ.get('START_MESSAGE','')
 FILTER_COMMAND = os.environ.get('FILTER_COMMAND', 'add')
 DELETE_COMMAND = os.environ.get('DELETE_COMMAND', 'del')
